@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.calendar-events .event-date {
+  border-top: 3px solid #000;
+  padding-top: 30px
+}
+
+.calendar-events .event-bx {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  margin-bottom: 50px;
+  height: 192px
+}
+
+@media screen and (max-width: 900px) {
+  .calendar-events .event-bx {
+      height:auto
+  }
+}
+
+.calendar-events .event-bx .speakers {
+  border-radius: 50%;
+  width: 50px;
+  margin-bottom: 30px;
+  display: inline-block!important
+}
+
+.calendar-events .horology-events .event-date a {
+  display: inline-block
+}
+.category {
+  font-family: Poppins,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #aaa;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: .5px;
+  -webkit-font-smoothing: antialiased
+}
+.time {
+  display: flex;
+  color: #6a2045;
+  font-family: Poppins,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: .5px
+}
+
+.time img {
+  width: 17px;
+  margin-right: 10px
+}
+.title {
+  font-family: Portrait;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  line-height: 1.1em;
+  -webkit-font-smoothing: antialiased
+}
+a, a:hover{
+  text-decoration: none!important;
+  color: #333 !important
+}
+.date-button {
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    width: 100px;
+    height: 100px;
+    padding: 28px 10px;
+    border: 0;
+    margin: 15px;
+}
+
+.date-button.active {
+  background-color: #dae7ff;
+}
